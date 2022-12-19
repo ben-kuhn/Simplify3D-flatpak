@@ -1,13 +1,13 @@
 
 ## Install Gnome Platform/SDK
 
- * flatpak remote-add --from gnome https://sdk.gnome.org/gnome.flatpakrepo
- * flatpak install gnome org.gnome.Platform//3.20
- * flatpak install gnome org.gnome.Sdk//3.20
+ * flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ * flatpak install org.gnome.Platform//43
+ * flatpak install org.gnome.Sdk//43
 
 ## Build the package
 
- * Pay and download Simplify3D-3.1.1-linux-x64-installer.zip from the official
+ * Pay and download Simplify3D-5.0.0-linux-x64-installer.zip from the official
    site and put the zip together with the json file.
  * flatpak-builder --repo=mys3drepo simp1 simplify3d.json
 
