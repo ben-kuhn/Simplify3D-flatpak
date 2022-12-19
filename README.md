@@ -1,4 +1,4 @@
-## This is an upgrade from grandpaul's original S3D 3.x flatpak. It is a WIP and does not work until this notice is removed.
+## This is an upgrade from grandpaul's original S3D 3.x flatpak. It is a WIP and may not work until this notice is removed.
 
 ## Install Gnome Platform/SDK
 
