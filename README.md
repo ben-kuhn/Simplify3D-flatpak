@@ -1,5 +1,7 @@
 ## This is an upgrade from grandpaul's original S3D 3.x flatpak. It is a WIP and may not work until this notice is removed.
 
+This is currently running, but only as root.  More work is needed to fix permissions so that the license can activate.
+
 ## Install Gnome Platform/SDK
 
  * flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
